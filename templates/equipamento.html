@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Equipamento</title>
+</head>
+<body>
+    <h1>Cadastrar Equipamento</h1>
+    
+    <form action="/cadastrar_equipamento" method="POST">
+        <label for="nome_equipamento">Nome:</label>
+        <input type="text" id="nome_equipamento" name="nome_equipamento" required><br>
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required><br>
+        <label for="local_instalacao">Local de Instalação:</label>
+        <input type="text" id="local_instalacao" name="local_instalacao" required><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
